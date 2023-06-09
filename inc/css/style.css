@@ -1,0 +1,139 @@
+body { 
+    overflow-x: hidden !important; 
+} 
+ 
+#hero { 
+    display: block !important; 
+ 
+} 
+ 
+#call-to-action { 
+    display: block !important; 
+    margin-bottom: 110px !important; 
+    margin-left: -130px !important; 
+} 
+#call-to-action-2{ 
+    display: none !important; 
+} 
+ 
+.hero-img { 
+    height: 80vh; 
+    width: 100vw; 
+    background-image: url('https://img.freepik.com/premium-vector/green-energy-power-plant-with-solar-hydro-hydrogen-wind-source-background-concept-clean-electric-energy-renewable-source-future-sustainable-world-vector-illustration_222003-46.jpg?w=2000'); 
+    background-repeat: no-repeat; 
+    background-position: center bottom; 
+    background-size: cover; 
+  } 
+ 
+.features{ 
+    margin-top: -70px !important; 
+    background-color: #FFFADE; 
+    overflow: hidden; 
+    z-index: 2; 
+} 
+ 
+.website-title{ 
+    margin-top: -150px !important; 
+} 
+ 
+.text-justify { 
+    text-align: justify; 
+} 
+ 
+.hover:hover { 
+    background-color: aliceblue; 
+} 
+ 
+.card img { 
+    object-fit: cover; 
+    object-position: bottom; 
+    width: 100%; 
+    max-height: 40vh; 
+} 
+ 
+.hidden { 
+    display: none; 
+} 
+ 
+.qnt { 
+    max-width: 20px !important; 
+    height: auto 
+} 
+.signup-button{ 
+    background-color: #5EB75B !important; 
+} 
+.bg-1{ 
+    background-color: #6DDE16 !important; 
+} 
+.b:hover{ 
+    background-color: #6DDE16 !important; 
+} 
+.bg-2{ 
+    background-color: #FFFADE !important; 
+} 
+.bg-3{ 
+    background-color: #00BB7F !important; 
+} 
+.bg-4{ 
+    background-color: #00A5A5 !important; 
+} 
+.btn-1{ 
+    background-color: #6DDE16 !important; 
+} 
+.btn-1:hover{ 
+    background-color: #FFFADE !important; 
+} 
+.btn-2{ 
+    background-color: #FFFADE !important; 
+} 
+.btn-2:hover{ 
+    background-color: #00BB7F !important; 
+} 
+.bg-5{ 
+    background-color: #008EC0 !important; 
+} 
+.bg-6{ 
+    background-color: #0076CC !important; 
+} 
+.text-1{ 
+    color: #6DDE16 !important; 
+} 
+.text-2{ 
+    color: #FFFADE !important; 
+} 
+.text-3{ 
+    color: #00BB7F !important; 
+} 
+ 
+.nav-link:hover{ 
+    color:#FFF !important; 
+} 
+ 
+@media screen and (min-width: 960px) { /* code works above the limit*/ 
+    #call-to-action { 
+        margin-left: -110px !important; 
+        margin-bottom: 200px !important; 
+    } 
+} 
+@media screen and (max-width: 850px) { 
+    #hero { 
+        display: none !important; 
+    } 
+ 
+    .features{ 
+        margin-top: 0px !important; 
+        /* background-color: #FFFADE; 
+        overflow: hidden; 
+        z-index: 2; */ 
+    } 
+     
+    #call-to-action { 
+        margin-left: -110px !important; 
+        margin-bottom: 200px !important; 
+    } 
+    #call-to-action-2 { 
+        display: block !important; 
+        margin-inline: 15px !important; 
+        overflow-x: hidden; 
+    } 
+}
